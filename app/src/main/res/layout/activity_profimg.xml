@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".profimg">
+
+    <LinearLayout
+        android:id="@+id/linearLayout13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:background="@drawable/testbox"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.532">
+
+        <ImageView
+            android:id="@+id/imageView47"
+            android:layout_width="400dp"
+            android:layout_height="400dp"
+            app:srcCompat="@drawable/profilephoto"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            tools:layout_editor_absoluteX="14dp"
+            tools:layout_editor_absoluteY="182dp" />
+
+
+        <Button
+            android:id="@+id/upload"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/testbox"
+            android:elevation="4dp"
+            android:fontFamily="@font/poppins_semibold"
+            android:paddingStart="16dp"
+            android:paddingTop="8dp"
+            android:paddingEnd="16dp"
+            android:paddingBottom="8dp"
+            android:text="Upload"
+            android:textAllCaps="false"
+            android:textColor="@color/color2"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/testbox"
+            android:elevation="4dp"
+            android:fontFamily="@font/poppins_semibold"
+            android:paddingStart="16dp"
+            android:paddingTop="8dp"
+            android:paddingEnd="16dp"
+            android:paddingBottom="8dp"
+            android:text="Submit"
+            android:textAllCaps="false"
+            android:textColor="@color/color2"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

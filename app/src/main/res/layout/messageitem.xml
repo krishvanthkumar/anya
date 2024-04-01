@@ -1,0 +1,67 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingLeft="10dp"
+    android:paddingTop="10dp"
+    android:paddingRight="10dp"
+    android:paddingBottom="10dp"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    tools:layout_editor_absoluteY="141dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.093"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.222">
+
+        <ImageView
+            android:id="@+id/imageView33"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            app:srcCompat="@drawable/human"
+            tools:layout_editor_absoluteX="30dp"
+            tools:layout_editor_absoluteY="191dp" />
+
+        <TextView
+            android:id="@+id/textView33"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="@font/poppins_semibold"
+            android:text="Lucky"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            tools:layout_editor_absoluteX="70dp"
+            tools:layout_editor_absoluteY="191dp" />
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/textmsg"
+        android:background="@drawable/testbox"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:paddingTop="10dp"
+        android:paddingLeft="10dp"
+        android:paddingBottom="10dp"
+        android:paddingRight="10dp"
+        android:layout_marginLeft="20dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Mojo"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        tools:layout_editor_absoluteX="70dp"
+        tools:layout_editor_absoluteY="191dp" />
+
+
+
+
+</LinearLayout>

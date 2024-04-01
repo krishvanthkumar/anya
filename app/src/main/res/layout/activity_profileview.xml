@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".profileview">
+
+    <ScrollView
+        android:layout_width="350dp"
+        android:layout_height="600dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.54">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginBottom="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/inputtun"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:text="UserName"
+                    android:textSize="16sp"
+                    tools:layout_editor_absoluteX="38dp"
+                    tools:layout_editor_absoluteY="179dp" />
+
+                <TextView
+                    android:id="@+id/inputun"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:gravity="center_vertical"
+                    android:background="@drawable/homepagebox"
+                    android:ems="10"
+                    android:textSize="20dp"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:inputType="text"
+                    android:paddingLeft="10dp"
+                    android:text="Enter Detail"
+                    android:textColor="@color/white"
+                    tools:layout_editor_absoluteX="38dp"
+                    tools:layout_editor_absoluteY="206dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginBottom="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/inputtp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:text="Password"
+                    android:textSize="16sp"
+                    tools:layout_editor_absoluteX="38dp"
+                    tools:layout_editor_absoluteY="179dp" />
+
+                <TextView
+                    android:id="@+id/inputp"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:gravity="center_vertical"
+                    android:background="@drawable/homepagebox"
+                    android:ems="10"
+                    android:textSize="20dp"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:inputType="text"
+                    android:paddingLeft="10dp"
+                    android:text="Enter Detail"
+                    android:textColor="@color/white"
+                    tools:layout_editor_absoluteX="38dp"
+                    tools:layout_editor_absoluteY="206dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginBottom="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/contact"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:text="Contact"
+                    android:textSize="16sp"
+                    tools:layout_editor_absoluteX="38dp"
+                    tools:layout_editor_absoluteY="179dp" />
+
+                <TextView
+                    android:id="@+id/inputcon"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:textSize="20dp"
+                    android:gravity="center_vertical"
+                    android:background="@drawable/homepagebox"
+                    android:ems="10"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:inputType="text"
+                    android:paddingLeft="10dp"
+                    android:text="Enter Detail"
+                    android:textColor="@color/white"
+                    tools:layout_editor_absoluteX="38dp"
+                    tools:layout_editor_absoluteY="206dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginBottom="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/inputname1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:text="FirstName"
+                    android:textSize="16sp"
+                    tools:layout_editor_absoluteX="38dp"
+                    tools:layout_editor_absoluteY="179dp" />
+
+                <TextView
+                    android:id="@+id/inputfn"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/homepagebox"
+                    android:ems="10"
+                    android:textSize="20dp"
+                    android:gravity="center_vertical"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:inputType="text"
+                    android:paddingLeft="10dp"
+                    android:text="Enter Detail"
+                    android:textColor="@color/white"
+                    tools:layout_editor_absoluteX="38dp"
+                    tools:layout_editor_absoluteY="206dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginBottom="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/inputname2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:text="LastName"
+                    android:textSize="16sp"
+                    tools:layout_editor_absoluteX="38dp"
+                    tools:layout_editor_absoluteY="179dp" />
+
+                <TextView
+                    android:id="@+id/inputln"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/homepagebox"
+                    android:ems="10"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:gravity="center_vertical"
+                    android:inputType="text"
+                    android:paddingLeft="10dp"
+                    android:text="Enter Detail"
+                    android:textColor="@color/white"
+                    android:textSize="20dp"
+                    tools:layout_editor_absoluteX="38dp"
+                    tools:layout_editor_absoluteY="206dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginBottom="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/inputname3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:text="Age"
+                    android:textSize="16sp"
+                    tools:layout_editor_absoluteX="38dp"
+                    tools:layout_editor_absoluteY="179dp" />
+
+                <TextView
+                    android:id="@+id/inputage"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/homepagebox"
+                    android:ems="10"
+                    android:textSize="20dp"
+                    android:gravity="center_vertical"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:inputType="text"
+                    android:paddingLeft="10dp"
+                    android:text="Enter Detail"
+                    android:textColor="@color/white"
+                    tools:layout_editor_absoluteX="38dp"
+                    tools:layout_editor_absoluteY="206dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginBottom="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/gen"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:text="Gender"
+                    android:textSize="16sp"
+                    tools:layout_editor_absoluteX="38dp"
+                    tools:layout_editor_absoluteY="179dp" />
+
+                <TextView
+                    android:id="@+id/inputgender"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/homepagebox"
+                    android:ems="10"
+                    android:textSize="20dp"
+                    android:gravity="center_vertical"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:inputType="text"
+                    android:paddingLeft="10dp"
+                    android:text="Enter Detail"
+                    android:textColor="@color/white"
+                    tools:layout_editor_absoluteX="38dp"
+                    tools:layout_editor_absoluteY="206dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginBottom="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/inputname4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:text="Height"
+                    android:textSize="16sp"
+                    tools:layout_editor_absoluteX="38dp"
+                    tools:layout_editor_absoluteY="179dp" />
+
+                <TextView
+                    android:id="@+id/inputheight"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/homepagebox"
+                    android:ems="10"
+                    android:textSize="20dp"
+                    android:gravity="center_vertical"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:inputType="text"
+                    android:paddingLeft="10dp"
+                    android:text="Enter Detail"
+                    android:textColor="@color/white"
+                    tools:layout_editor_absoluteX="38dp"
+                    tools:layout_editor_absoluteY="206dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginBottom="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/inputname5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:text="Weight"
+                    android:textSize="16sp"
+                    tools:layout_editor_absoluteX="38dp"
+                    tools:layout_editor_absoluteY="179dp" />
+
+                <TextView
+                    android:id="@+id/inputweight"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/homepagebox"
+                    android:ems="10"
+                    android:textSize="20dp"
+                    android:gravity="center_vertical"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:inputType="text"
+                    android:paddingLeft="10dp"
+                    android:text="Enter Detail"
+                    android:textColor="@color/white"
+                    tools:layout_editor_absoluteX="38dp"
+                    tools:layout_editor_absoluteY="206dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/inputname6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:text="Blood Group"
+                    android:textSize="16sp"
+                    tools:layout_editor_absoluteX="38dp"
+                    tools:layout_editor_absoluteY="179dp" />
+
+                <TextView
+                    android:id="@+id/inputbg"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/homepagebox"
+                    android:ems="10"
+                    android:textSize="20dp"
+                    android:gravity="center_vertical"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:inputType="text"
+                    android:paddingLeft="10dp"
+                    android:text="Enter Detail"
+                    android:textColor="@color/white"
+                    tools:layout_editor_absoluteX="38dp"
+                    tools:layout_editor_absoluteY="206dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/textView50"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Patient Detail"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="97dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

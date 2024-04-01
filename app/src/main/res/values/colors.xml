@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="color1">#FF973F46</color>
+    <color name="color2">#FFFE8C95</color>
+    <color name="color3">#FFD79CA0</color>
+    <color name="color4">#FFFCE8EA</color>
+    <color name="seekbar_track_color">#FFFE8C95</color>
+    <color name="seekbar_progress_color">#FFFCE8EA</color>
+    <color name="seekbar_thumb_color">#FF973F46</color>
+</resources>

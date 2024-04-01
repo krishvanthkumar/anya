@@ -1,0 +1,620 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".register4">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="375dp"
+        android:layout_height="682dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.466"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.498">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginBottom="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/inputname1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:text="Past Obstetric History"
+                    android:textSize="16sp"
+                    tools:layout_editor_absoluteX="38dp"
+                    tools:layout_editor_absoluteY="179dp" />
+
+                <EditText
+                    android:id="@+id/poh"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/homepagebox"
+                    android:ems="10"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:inputType="text"
+                    android:paddingLeft="10dp"
+                    android:text="Enter Detail"
+                    android:textColor="@color/white"
+                    tools:layout_editor_absoluteX="38dp"
+                    tools:layout_editor_absoluteY="206dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:text="Outcome"
+                    android:textSize="16sp"
+                    tools:layout_editor_absoluteX="38dp"
+                    tools:layout_editor_absoluteY="179dp" />
+
+                <RadioGroup
+                    android:id="@+id/radioGroup"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true">
+
+                    <RadioButton
+                        android:id="@+id/radioButton11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_semibold"
+                        android:text=" Delivery"
+                        android:textColor="@color/material_dynamic_neutral30"
+                        android:textSize="16sp" />
+
+                    <RadioButton
+                        android:id="@+id/radioButton12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_semibold"
+                        android:text="Abortion"
+                        android:textColor="@color/material_dynamic_neutral30"
+                        android:textSize="16sp" />
+
+                    <RadioButton
+                        android:id="@+id/radioButton13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_semibold"
+                        android:text="Ectopic Pregnancy"
+                        android:textColor="@color/material_dynamic_neutral30"
+                        android:textSize="16sp" />
+
+                    <RadioButton
+                        android:id="@+id/radioButton14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_semibold"
+                        android:text="Molar Pregnancy"
+                        android:textColor="@color/material_dynamic_neutral30"
+                        android:textSize="16sp" />
+                </RadioGroup>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginBottom="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/inputname2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:text="Gestational Age"
+                    android:textSize="16sp"
+                    tools:layout_editor_absoluteX="38dp"
+                    tools:layout_editor_absoluteY="179dp" />
+
+                <EditText
+                    android:id="@+id/ga"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/homepagebox"
+                    android:ems="10"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:inputType="text"
+                    android:paddingLeft="10dp"
+                    android:text="Enter Detail"
+                    android:textColor="@color/white"
+                    tools:layout_editor_absoluteX="38dp"
+                    tools:layout_editor_absoluteY="206dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginBottom="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/inputname3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:text="Place Of Abortion/Delivery"
+                    android:textSize="16sp"
+                    tools:layout_editor_absoluteX="38dp"
+                    tools:layout_editor_absoluteY="179dp" />
+
+                <EditText
+                    android:id="@+id/poad"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/homepagebox"
+                    android:ems="10"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:inputType="text"
+                    android:paddingLeft="10dp"
+                    android:text="Enter Detail"
+                    android:textColor="@color/white"
+                    tools:layout_editor_absoluteX="38dp"
+                    tools:layout_editor_absoluteY="206dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginBottom="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/inputname4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:text="Detail Of Abortion/Delivery"
+                    android:textSize="16sp"
+                    tools:layout_editor_absoluteX="38dp"
+                    tools:layout_editor_absoluteY="179dp" />
+
+                <EditText
+                    android:id="@+id/doad"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/homepagebox"
+                    android:ems="10"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:inputType="text"
+                    android:paddingLeft="10dp"
+                    android:text="Enter Detail"
+                    android:textColor="@color/white"
+                    tools:layout_editor_absoluteX="38dp"
+                    tools:layout_editor_absoluteY="206dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:text="Delivery Details(Modes Of Delivery)"
+                    android:textSize="16sp"
+                    tools:layout_editor_absoluteX="38dp"
+                    tools:layout_editor_absoluteY="179dp" />
+
+                <RadioGroup
+                    android:id="@+id/radioGroup1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true">
+
+                    <RadioButton
+                        android:id="@+id/radioButton21"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_semibold"
+                        android:text="Vaginal with episiotomy"
+                        android:textColor="@color/material_dynamic_neutral30"
+                        android:textSize="16sp" />
+
+                    <RadioButton
+                        android:id="@+id/radioButton22"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_semibold"
+                        android:text="Vaginal with intact pernium"
+                        android:textColor="@color/material_dynamic_neutral30"
+                        android:textSize="16sp" />
+
+                    <RadioButton
+                        android:id="@+id/radioButton23"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_semibold"
+                        android:text="Vaginal with perineal tear"
+                        android:textColor="@color/material_dynamic_neutral30"
+                        android:textSize="16sp" />
+
+                    <RadioButton
+                        android:id="@+id/radioButton24"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_semibold"
+                        android:text="Vacuum assisted vaginal"
+                        android:textColor="@color/material_dynamic_neutral30"
+                        android:textSize="16sp" />
+
+                    <RadioButton
+                        android:id="@+id/radioButton25"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_semibold"
+                        android:text="Forceps assisted vaginal"
+                        android:textColor="@color/material_dynamic_neutral30"
+                        android:textSize="16sp" />
+
+                    <RadioButton
+                        android:id="@+id/radioButton26"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_semibold"
+                        android:text="Elective ceserean section with ST"
+                        android:textColor="@color/material_dynamic_neutral30"
+                        android:textSize="16sp" />
+
+                    <RadioButton
+                        android:id="@+id/radioButton27"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_semibold"
+                        android:text="Elective ceserean section without ST"
+                        android:textColor="@color/material_dynamic_neutral30"
+                        android:textSize="16sp" />
+
+                    <RadioButton
+                        android:id="@+id/radioButton28"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_semibold"
+                        android:text="Emerge ceserean section with ST"
+                        android:textColor="@color/material_dynamic_neutral30"
+                        android:textSize="16sp" />
+
+                    <RadioButton
+                        android:id="@+id/radioButton29"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_semibold"
+                        android:text="Emerge"
+                        android:textColor="@color/material_dynamic_neutral30"
+                        android:textSize="16sp" />
+
+                </RadioGroup>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginBottom="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/inputname5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:text="Complication"
+                    android:textSize="16sp"
+                    tools:layout_editor_absoluteX="38dp"
+                    tools:layout_editor_absoluteY="179dp" />
+
+                <EditText
+                    android:id="@+id/com"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/homepagebox"
+                    android:ems="10"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:inputType="text"
+                    android:paddingLeft="10dp"
+                    android:text="Enter Detail"
+                    android:textColor="@color/white"
+                    tools:layout_editor_absoluteX="38dp"
+                    tools:layout_editor_absoluteY="206dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:text="Baby Details"
+                    android:textSize="16sp"
+                    tools:layout_editor_absoluteX="38dp"
+                    tools:layout_editor_absoluteY="179dp" />
+
+                <RadioGroup
+                    android:id="@+id/radioGroup2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true">
+
+                    <RadioButton
+                        android:id="@+id/radioButton31"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_semibold"
+                        android:text="AGA"
+                        android:textColor="@color/material_dynamic_neutral30"
+                        android:textSize="16sp" />
+
+                    <RadioButton
+                        android:id="@+id/radioButton32"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_semibold"
+                        android:text="SGA"
+                        android:textColor="@color/material_dynamic_neutral30"
+                        android:textSize="16sp" />
+
+                    <RadioButton
+                        android:id="@+id/radioButton33"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_semibold"
+                        android:text="LGA"
+                        android:textColor="@color/material_dynamic_neutral30"
+                        android:textSize="16sp" />
+
+                    <RadioButton
+                        android:id="@+id/radioButton34"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_semibold"
+                        android:text="TERM"
+                        android:textColor="@color/material_dynamic_neutral30"
+                        android:textSize="16sp" />
+
+                    <RadioButton
+                        android:id="@+id/radioButton35"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_semibold"
+                        android:text="PRETERM"
+                        android:textColor="@color/material_dynamic_neutral30"
+                        android:textSize="16sp" />
+
+                    <RadioButton
+                        android:id="@+id/radioButton36"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_semibold"
+                        android:text="anomalies present"
+                        android:textColor="@color/material_dynamic_neutral30"
+                        android:textSize="16sp" />
+
+                    <RadioButton
+                        android:id="@+id/radioButton37"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_semibold"
+                        android:text="NICU admission"
+                        android:textColor="@color/material_dynamic_neutral30"
+                        android:textSize="16sp" />
+
+                    <RadioButton
+                        android:id="@+id/radioButton38"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_semibold"
+                        android:text="Breastfeeding Normal"
+                        android:textColor="@color/material_dynamic_neutral30"
+                        android:textSize="16sp" />
+
+                    <RadioButton
+                        android:id="@+id/radioButton39"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_semibold"
+                        android:text="Breastfeeding abnormal"
+                        android:textColor="@color/material_dynamic_neutral30"
+                        android:textSize="16sp" />
+
+                    <RadioButton
+                        android:id="@+id/radioButton310"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_semibold"
+                        android:text="Milesstones normal"
+                        android:textColor="@color/material_dynamic_neutral30"
+                        android:textSize="16sp" />
+
+                    <RadioButton
+                        android:id="@+id/radioButton311"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_semibold"
+                        android:text="Milesstones Abnormal"
+                        android:textColor="@color/material_dynamic_neutral30"
+                        android:textSize="16sp" />
+
+                    <RadioButton
+                        android:id="@+id/radioButton312"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_semibold"
+                        android:text="Alive"
+                        android:textColor="@color/material_dynamic_neutral30"
+                        android:textSize="16sp" />
+
+                    <RadioButton
+                        android:id="@+id/radioButton313"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_semibold"
+                        android:text="Dead"
+                        android:textColor="@color/material_dynamic_neutral30"
+                        android:textSize="16sp" />
+
+                    <RadioButton
+                        android:id="@+id/radioButton314"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_semibold"
+                        android:text="Healthy"
+                        android:textColor="@color/material_dynamic_neutral30"
+                        android:textSize="16sp" />
+
+                    <RadioButton
+                        android:id="@+id/radioButton315"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_semibold"
+                        android:text="Others"
+                        android:textColor="@color/material_dynamic_neutral30"
+                        android:textSize="16sp" />
+
+                </RadioGroup>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginBottom="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/inputname6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:text="Baby Weight"
+                    android:textSize="16sp"
+                    tools:layout_editor_absoluteX="38dp"
+                    tools:layout_editor_absoluteY="179dp" />
+
+                <EditText
+                    android:id="@+id/bw"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/homepagebox"
+                    android:ems="10"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:inputType="text"
+                    android:paddingLeft="10dp"
+                    android:text="Enter Detail"
+                    android:textColor="@color/white"
+                    tools:layout_editor_absoluteX="38dp"
+                    tools:layout_editor_absoluteY="206dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/homepagebox3"
+                android:orientation="vertical"
+                android:paddingLeft="5dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="8dp">
+
+                <TextView
+                    android:id="@+id/inputname7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:text="Second Pregnancy"
+                    android:textSize="16sp"
+                    tools:layout_editor_absoluteX="38dp"
+                    tools:layout_editor_absoluteY="179dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingLeft="25dp">
+
+                    <Button
+                        android:id="@+id/button1"
+                        android:layout_width="140dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="0dp"
+                        android:layout_marginRight="40dp"
+                        android:background="@drawable/homepagebox"
+                        android:text="Yes"
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+
+                    <Button
+                        android:id="@+id/button2"
+                        android:layout_width="140dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/homepagebox"
+                        android:text="Submit"
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.041"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.051"
+        app:srcCompat="@drawable/previous" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

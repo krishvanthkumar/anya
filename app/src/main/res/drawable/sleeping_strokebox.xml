@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+        <!-- Top Stroke -->
+        <item
+            android:top="0dp"
+            android:left="0dp"
+            android:right="0dp"
+            android:bottom="2dp">
+            <shape android:shape="rectangle">
+                <stroke
+                    android:width="2dp"
+                    android:color="#FFFE8C95"/>
+            </shape>
+        </item>
+
+        <!-- Your Content -->
+        <item android:top="2dp">
+            <shape android:shape="rectangle">
+                <!-- Add your view's background color or other properties here -->
+                <solid android:color="#00000000"/>
+            </shape>
+        </item>
+
+        <!-- Bottom Stroke -->
+        <item
+            android:top="2dp"
+            android:left="0dp"
+            android:right="0dp"
+            android:bottom="0dp">
+            <shape android:shape="rectangle">
+                <stroke
+                    android:width="2dp"
+                    android:color="#FFFE8C95"/>
+            </shape>
+        </item>
+    </layer-list>
+

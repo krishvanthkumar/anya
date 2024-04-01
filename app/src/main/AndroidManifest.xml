@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Medical_application"
+        tools:targetApi="31">
+        <activity
+            android:name=".profileview"
+            android:exported="false" />
+        <activity
+            android:name=".mvdisplay"
+            android:exported="false" />
+        <activity
+            android:name=".meditation"
+            android:exported="false" />
+        <activity
+            android:name=".profimg"
+            android:exported="false" />
+        <activity
+            android:name=".audioplayer"
+            android:exported="false" />
+        <activity
+            android:name=".audios"
+            android:exported="false" />
+        <activity
+            android:name=".audioupload"
+            android:exported="false" />
+        <activity
+            android:name=".UploadAudioService"
+            android:exported="false" />
+        <activity
+            android:name=".gmood"
+            android:exported="false" />
+        <activity
+            android:name=".guardian_home"
+            android:exported="false" />
+        <activity
+            android:name=".guardian_login"
+            android:exported="false" />
+        <activity
+            android:name=".patientstats"
+            android:exported="false" />
+        <activity
+            android:name=".doctormain"
+            android:exported="false" />
+        <activity
+            android:name=".videoplayer"
+            android:exported="false" />
+        <activity
+            android:name=".after_test"
+            android:exported="false" />
+        <activity
+            android:name=".testqn10"
+            android:exported="false" />
+        <activity
+            android:name=".testqn9"
+            android:exported="false" />
+        <activity
+            android:name=".testqn8"
+            android:exported="false" />
+        <activity
+            android:name=".testqn7"
+            android:exported="false" />
+        <activity
+            android:name=".testqn6"
+            android:exported="false" />
+        <activity
+            android:name=".testqn5"
+            android:exported="false" />
+        <activity
+            android:name=".testqn4"
+            android:exported="false" />
+        <activity
+            android:name=".testqn3"
+            android:exported="false" />
+        <activity
+            android:name=".testqn2"
+            android:exported="false" />
+        <activity
+            android:name=".testqn1"
+            android:exported="false" />
+        <activity
+            android:name=".videoupload"
+            android:exported="false" />
+        <activity
+            android:name=".register5"
+            android:exported="false" />
+        <activity
+            android:name=".register4"
+            android:exported="false" />
+        <activity
+            android:name=".docterprofile"
+            android:exported="false" />
+        <activity
+            android:name=".docternot"
+            android:exported="false" />
+        <activity
+            android:name=".doctermenu"
+            android:exported="false" />
+        <activity
+            android:name=".doctorhomepage"
+            android:exported="false" />
+        <activity
+            android:name=".doclogin"
+            android:exported="false" />
+        <activity
+            android:name=".register3"
+            android:exported="false" />
+        <activity
+            android:name=".register2"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".register1"
+            android:exported="false" />
+        <activity
+            android:name=".music"
+            android:exported="false" />
+        <activity
+            android:name=".Stress_relief"
+            android:exported="false" />
+        <activity
+            android:name=".chatbot"
+            android:exported="false" />
+        <activity
+            android:name=".notification"
+            android:exported="false" />
+        <activity
+            android:name=".my_test"
+            android:exported="false" />
+        <activity
+            android:name=".sleeptracker"
+            android:exported="false" />
+        <activity
+            android:name=".mood_tracker"
+            android:exported="false" />
+        <activity
+            android:name=".tracker"
+            android:exported="false" />
+        <activity
+            android:name=".profile"
+            android:exported="false" />
+        <activity
+            android:name=".mamaandme"
+            android:exported="false" />
+        <activity
+            android:name=".interaction"
+            android:exported="false" />
+        <activity
+            android:name=".sleeping"
+            android:exported="false" />
+        <activity
+            android:name=".moodanalysis"
+            android:exported="false" />
+        <activity
+            android:name=".menubar"
+            android:exported="false" />
+        <activity
+            android:name=".homepage"
+            android:exported="false" />
+        <activity
+            android:name=".login"
+            android:exported="false" />
+        <activity
+            android:name=".beflogin"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+        <meta-data
+            android:name="com.google.android.gms.vr.vr_supported"
+            android:value="true" />
+        <meta-data
+            android:name="com.google.android.gms.vr.vr_required"
+            android:value="false" />
+    </application>
+
+</manifest>

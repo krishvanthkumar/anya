@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".homepage1">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="28dp"
+            tools:layout_editor_absoluteY="89dp"
+            android:layout_gravity="center">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:orientation="horizontal"
+                tools:layout_editor_absoluteX="25dp"
+                tools:layout_editor_absoluteY="78dp">
+
+                <TextView
+                    android:id="@+id/pname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Hello Ellan,"
+                    android:textColor="@color/black"
+                    android:textSize="24sp" />
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+                <ImageView
+                    android:id="@+id/menu"
+                    android:layout_width="28dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/menubar" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:orientation="horizontal"
+                tools:layout_editor_absoluteX="31dp"
+                tools:layout_editor_absoluteY="147dp">
+
+                <ImageView
+                    android:id="@+id/imageView11"
+                    android:layout_width="21dp"
+                    android:layout_height="23dp"
+                    android:layout_marginRight="10dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.087"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.188"
+                    app:srcCompat="@drawable/human" />
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="308dp"
+                    android:layout_height="73dp"
+                    android:background="@drawable/homepagebox4"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="3dp"
+                    android:text="How can I best help you today ? Let me know by doing your daily check in."
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.66"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.199" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_semibold"
+                android:text="Daily Check In"
+                android:textColor="@color/color1"
+                android:textSize="30sp"
+                android:textStyle="normal"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.172"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.314" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            tools:layout_editor_absoluteX="40dp"
+            android:layout_gravity="center">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:orientation="horizontal"
+                tools:layout_editor_absoluteY="10dp">
+
+                <FrameLayout
+                    android:id="@+id/act1"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_marginRight="30dp"
+                    android:background="@drawable/homepagebox"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.168"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.464">
+
+                    <ImageView
+                        android:id="@+id/imageView12"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="10dp"
+                        app:srcCompat="@drawable/hpstressmanag"
+                        tools:layout_editor_absoluteX="80dp"
+                        tools:layout_editor_absoluteY="327dp" />
+
+                    <TextView
+                        android:id="@+id/textView6"
+                        android:layout_width="116dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="95dp"
+                        android:text="How was your mood today ?"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/act3"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:background="@drawable/homepagebox2"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.869"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.467">
+
+                    <ImageView
+                        android:id="@+id/imageView6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="0dp"
+                        android:paddingTop="10dp"
+                        app:srcCompat="@drawable/hpcomm"
+                        tools:layout_editor_absoluteX="70dp"
+                        tools:layout_editor_absoluteY="521dp" />
+
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:layout_width="132dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="95dp"
+                        android:text="how it went today ?"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+
+                </FrameLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:layout_editor_absoluteY="10dp">
+
+                <FrameLayout
+                    android:id="@+id/act2"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:background="@drawable/homepagebox2"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.869"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.726">
+
+                    <ImageView
+                        android:id="@+id/imageView13"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="10dp"
+                        app:srcCompat="@drawable/hpsleep"
+                        tools:layout_editor_absoluteX="263dp"
+                        tools:layout_editor_absoluteY="327dp" />
+
+                    <TextView
+                        android:id="@+id/textView9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="95dp"
+                        android:text="How was yor sleep last night ?"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/act4"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_marginLeft="30dp"
+                    android:background="@drawable/homepagebox"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.172"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.724">
+
+                    <ImageView
+                        android:id="@+id/imageView14"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="10dp"
+                        app:srcCompat="@drawable/hpmother"
+                        tools:layout_editor_absoluteX="263dp"
+                        tools:layout_editor_absoluteY="521dp" />
+
+                    <TextView
+                        android:id="@+id/textView8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="105dp"
+                        android:text="Mama &amp; Me"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+
+                </FrameLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <FrameLayout
+            android:id="@+id/act5"
+            android:layout_width="330dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/homepagebox"
+            android:layout_gravity="center">
+
+            <TextView
+                android:id="@+id/textView38"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/poppins_semibold"
+                android:text="Take Test"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="230dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/question" />
+        </FrameLayout>
+
+
+    </LinearLayout>
+</FrameLayout>
